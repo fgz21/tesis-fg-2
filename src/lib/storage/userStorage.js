@@ -1,4 +1,4 @@
 import { writable } from "svelte/store";
 
-// Acá se guardaran los datos del usuario
+// usuario guardado
 export const userStorage = writable();

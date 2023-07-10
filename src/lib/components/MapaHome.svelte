@@ -6,7 +6,7 @@
     <div class="w-full h-full">
       <iframe
         title="Google Maps"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1972.3768825848783!2d-70.24390504009787!3d8.619622362488114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e7b5780772d9977%3A0x777f340033850b6b!2sCaba%C3%B1a%2010!5e0!3m2!1ses!2sve!4v1683158679897!5m2!1ses!2sve"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d246.5486539791293!2d-70.2414164!3d8.6172555!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e7b57c78c50de9b%3A0xd19bb8ad443a77e9!2sCaba%C3%B1a%2013!5e0!3m2!1ses!2sve!4v1688973709930!5m2!1ses!2sve"
         width="100%"
         height="450"
         style="border:0;"
@@ -17,3 +17,5 @@
     </div>
   </div>
 </section>
+
+
