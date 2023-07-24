@@ -7,8 +7,6 @@
   import { showToast } from "../../lib/config/toastConfig";
   import { userStorage } from "../../lib/storage/userStorage";
 
-  
-
   const URL_LOGIN = `https://fgt.alwaysdata.net/auth`;
 
   // Manejando el envio del formulario
@@ -38,6 +36,7 @@
       .then((response) => {
         if (response.status === 200) {
           const { user, message } = response.data;
+          console.log(user);
           // Guardar datos en las cookies
           setCookies("auth", user, 7);
 
