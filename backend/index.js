@@ -43,10 +43,8 @@ app.post("/auth", (req, res) => {
       res.json({
         message: "Sesión iniciada correctamente",
         user: {
-          id: user.id,
-          name: user.name,
-          email: user.email,
-          role: user.role,
+          ...user,
+          password: undefined,
         },
       });
     } else {
