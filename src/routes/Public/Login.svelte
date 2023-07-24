@@ -36,7 +36,6 @@
       .then((response) => {
         if (response.status === 200) {
           const { user, message } = response.data;
-          console.log(user);
           // Guardar datos en las cookies
           setCookies("auth", user, 7);
 
