@@ -49,7 +49,7 @@
           Nombre
         </label>
         <input
-          class="form-input rounded-md shadow-sm w-full sm:text-sm sm:leading-5"
+          class="form-input rounded-md shadow-sm w-full sm:text-sm sm:leading-5 p-1"
           type="text"
           id="name"
           bind:value={user.name}
@@ -61,7 +61,7 @@
           Correo electrónico
         </label>
         <input
-          class="form-input border border-[#0ea5e9] rounded-md shadow-sm w-full sm:text-sm sm:leading-5"
+          class="form-input border border-[#0ea5e9] rounded-md shadow-sm w-full sm:text-sm sm:leading-5 p-1"
           type="email"
           id="email"
           bind:value={user.email}
@@ -73,7 +73,7 @@
           Número de cédula
         </label>
         <input
-          class="form-input rounded-md border border-[#0ea5e9] shadow-sm w-full sm:text-sm sm:leading-5"
+          class="form-input rounded-md border border-[#0ea5e9] shadow-sm w-full sm:text-sm sm:leading-5 p-1"
           type="text"
           id="cedula"
           bind:value={user.cedula}
@@ -86,7 +86,7 @@
           Género
         </label>
         <select
-          class="form-select rounded-md border border-[#0ea5e9] shadow-sm w-full sm:text-sm sm:leading-5"
+          class="form-select rounded-md border border-[#0ea5e9] shadow-sm w-full sm:text-sm sm:leading-5 p-1"
           id="gender"
           bind:value={user.gender}
         >
@@ -102,7 +102,7 @@
           Carrera
         </label>
         <input
-          class="form-input rounded-md border border-[#0ea5e9] shadow-sm w-full sm:text-sm sm:leading-5"
+          class="form-input rounded-md border border-[#0ea5e9] shadow-sm w-full sm:text-sm sm:leading-5 p-1"
           type="text"
           id="career"
           bind:value={user.career}
@@ -114,7 +114,7 @@
           Semestre
         </label>
         <select
-          class="form-select border border-[#05e9] rounded-md shadow-sm w-full sm:text-sm sm:leading-5"
+          class="form-select border border-[#05e9] rounded-md shadow-sm w-full sm:text-sm sm:leading-5 p-1"
           id="semestre"
           bind:value={user.semestre}
         >
@@ -133,8 +133,7 @@
       <div class="w-full flex items-center justify-start mt-6">
         <button
           class="bg-[#0ea5e9] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          type="submit"
-        >
+          type="submit">
           Guardar cambios
         </button>
       </div>

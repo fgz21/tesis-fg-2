@@ -54,6 +54,7 @@
   let user = $userStorage;
   let comment = "";
   let comments = [];
+  
 </script>
 
 {#if user.role === "admin"}

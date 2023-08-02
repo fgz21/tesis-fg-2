@@ -4,5 +4,5 @@ CREATE TABLE users (
   uuid VARCHAR(255) NOT NULL,
   email VARCHAR(255) NOT NULL,
   password VARCHAR(255) NOT NULL,
-  rol ENUM('user', 'admin') NOT NULL DEFAULT 'user',
+  role ENUM('user', 'admin') NOT NULL DEFAULT 'user',
 );
